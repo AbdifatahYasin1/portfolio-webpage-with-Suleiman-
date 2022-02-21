@@ -34,7 +34,19 @@ body
     color: white;
     text-align: center;
     padding: 80px;
+    margin: 0 auto;
+    text-transform: capitalize;
     
+}
+
+.text h1{
+    letter-spacing: 0.6rem;
+    font-size: 7em;
+}
+
+.text p{
+    letter-spacing: 0.2rem;
+    font-weight: 700;
 }
 
 
@@ -259,20 +271,30 @@ li a
     height: 100%;
     background-color:  rgba(208, 216, 234, 0.25);
     color:#242a56;
+    padding:4rem 2rem;
    
 }
 
-
+.container .box{
+    padding:2rem;
+    margin: 2rem;
+    height:170px;
+    border-radius: 20px;
+}
 
 .header h1
 {
     text-align: center;
+    text-transform:capitalize;
+    font-size: 2.3em;
+    padding:1rem;
 }
 
 .header p
 {
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
+
 }
 
 
@@ -303,7 +325,15 @@ li a
 
 .section-three-head h1
 {
-     padding: 20px;
+    padding: 2rem;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+
+}
+
+.section-three-head p{
+    text-transform: capitalize;
+    line-height: 1.4em;
 }
 
 
@@ -381,7 +411,7 @@ div img
 {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 5rem;
     color: #f0caca;
     font-size: 1rem;
      background-color: #242a56;
@@ -390,7 +420,18 @@ div img
     
 }
 
+.footer-links{
+    display:flex;
+    width: 400px;
+    justify-content: space-around;
+}
 
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    margin:0.3rem;
+    font-size: 1.7em;
+}
 
 
 
